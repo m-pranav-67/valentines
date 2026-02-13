@@ -127,8 +127,7 @@ function openGift(num) {
         content.innerHTML = `
             <h2>Happy Valentine’s Day 💖</h2>
             <p>
-                This is where you write your Valentine paragraph.
-                Make it personal, warm, and from your heart.
+                Hey babe!! Happy Valentine's Day!! Namaloda first Valentine's day..onnaa..ithuthaa namma first valentine uhh jolly ah iruku enakuu! naa ithaa kadaisi nerathula thaa panrenn... konjo kolaaraa irukumm but babee!! i am so happy ! That i am creating a website for my babe!! Nammalaala onna iruka mudilaa but unaku enna pudiku enaku unna pudikuu.. we were meant to be together even we are seperated from each other! I LOVE YOU thangameyy!! intha prd rombhaa kastam aaiduchuu namakuu enaku mental ah unaku mental and physical ah!! ithuku mela namalaala evlo cautious ah irunthiruka mudiyu nu therila enakuu!! but ellam ndanthruchuu we have to face this.. we are facing this.. viduu paathukalaam.. ipo ithuu mudincha kaprm en chella pulla cure aagi enaku kedaichiduvaa.. unna paakaaama enaaala irukaa mudilaa.. evlo sekram mudiyumo avlo seekram meet pananum thangameyy!! meet pandroom jolly pandroomm.. mass pandrom babyy!! nee naathaa ulugathulaye best couple nu elaathuku puriya vekkanu baby!! Avlothaa namma! intha valentine's day ipidi pooiduchu nu kavala padathaa!! namaku vaazhkai la elaa naalu valemtine's day thaaa okey vaa!! nammathaaaa!thiran appo rendu naal naa rombhhaaa happy.. happy naa rombha rombhaa rombhaaa happyy!! semma sandhosam...naa bayangramaa express panen unakey theriyuu i am not an expressive type but naane expressive ah irunthenaa paaathuko..avloo bayangrama happy ah irunthen unaala.. nee enakaaga avloo pain layu thiran mudincha next two days paakanum nu sonniya thangoo!! achooowww enakaaga nee avlo laam panavenaaam paa.. enna naalu enta solluu ethu naalu enaku call pannu.. naa unna purinjikaama yaara purinjika poren sollu paapomm.. thanks for everything oru ponnaa ilaama oru amma va ennya bathrama paathukitaa nee.. so so so happy and grateful to have a girlfriend like you! namma ner la illana enna unna thaa naa epome  nenachitu iruka porenn Babee!! Lovvee Youuu!! Be my Valentine and my wife!!!🥺❤️💍 
             </p>
         `;
     }
@@ -224,3 +223,4 @@ function heartLikeBurst(img) {
         setTimeout(() => heart.remove(), 800);
     }
 }
+
