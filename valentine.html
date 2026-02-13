@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Be My Valentine 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- FLOATING HEARTS BACKGROUND -->
+<div id="floating-hearts"></div>
+
+<!-- INTRO PAGE -->
+<div id="intro" class="page">
+    <h1>Will you be my Valentine? 💕</h1>
+
+    <div class="buttons">
+        <button id="yesBtn">YES 💖</button>
+        <button id="noBtn">NO 😝</button>
+    </div>
+</div>
+
+<!-- GIFTS PAGE -->
+<div id="gifts" class="page hidden">
+
+    <h1>A Little Surprise For You 💝</h1>
+
+    <div class="gift-container">
+        <div class="gift-box elegant" onclick="openGift(1)">
+            <span>💌</span>
+            <p>For You</p>
+        </div>
+
+        <div class="gift-box elegant" onclick="openGift(2)">
+            <span>📸</span>
+            <p>Our Memories</p>
+        </div>
+
+        <div class="gift-box elegant" onclick="openGift(3)">
+            <span>🎀</span>
+            <p>My Gifts</p>
+        </div>
+    </div>
+
+    <!-- GIFT OVERLAY (click outside to close) -->
+    <div id="giftOverlay" class="gift-overlay" onclick="resetGifts(event)">
+        <div id="giftContent" class="gift-content">
+            <!-- Content injected by JavaScript -->
+        </div>
+    </div>
+
+</div>
+
+<!-- FULLSCREEN PHOTO VIEWER -->
+<div id="photoOverlay" class="photo-overlay" onclick="closePhoto()">
+    <img id="photoOverlayImg" alt="Memory photo">
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
