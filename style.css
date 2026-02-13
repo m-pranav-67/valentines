@@ -200,9 +200,19 @@ button {
     padding: 35px;
     border-radius: 22px;
     max-width: 700px;
-    width: 80%;
+    width: 85%;
+    max-height: 80vh;          /* 🔑 limits height */
+    overflow-y: auto;          /* 🔑 enables scroll */
     box-shadow: 0 30px 70px rgba(0,0,0,0.35);
     animation: fadeUp 0.6s ease forwards;
+}
+.gift-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.gift-content::-webkit-scrollbar-thumb {
+    background: rgba(233, 30, 99, 0.5);
+    border-radius: 10px;
 }
 
 .gift-content h2 {
@@ -389,3 +399,4 @@ button {
         opacity: 0;
     }
 }
+
